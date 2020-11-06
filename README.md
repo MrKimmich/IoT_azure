@@ -16,3 +16,16 @@ Make sure you run your code with Python3
 
 ### To start device monitor
 `az iot hub monitor-events --hub-name MSR0806 --device-id MyRPi`
+
+## Azure CLI for Windows
+Download and Install
+https://www.aka.ms/installazurecliwindows
+
+### Open Command prompt
+`az`</br>
+#### Firstly login to Azure account
+`az login`
+#### Next set the subscription
+`az account set --subscription "Free Trail"`</br>
+#### Adding extensions for IoT
+`az extension add --name azure-iot`</br>
