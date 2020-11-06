@@ -32,3 +32,10 @@ https://www.aka.ms/installazurecliwindows
 `az account set --subscription "Free Trail"`</br>
 #### Adding extensions for IoT
 `az extension add --name azure-iot`</br>
+
+## Event Hubs-compatible endpoint, Event Hubs-compatible path, and service primary
+`az iot hub show --query properties.eventHubEndpoints.events.endpoint --name {YourIoTHubName}
+
+az iot hub show --query properties.eventHubEndpoints.events.path --name {YourIoTHubName}
+
+az iot hub policy show --name service --query primaryKey --hub-name {YourIoTHubName}`
