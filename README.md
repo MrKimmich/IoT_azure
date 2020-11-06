@@ -9,6 +9,8 @@
 `sudo pip3 install azure-iothub-service-client`</br>
 `sudo pip3 install azure-iothub-device-client`</br>
 
+#### [Azure CLI on Raspberry Pi](https://snapcraft.io/install/azure-cli/raspbian)
+
 Make sure you run your code with Python3
 
 ### Now before you run the Python program create an azure shell (CLI). When you open it for the first time it will ask you to create storage.
