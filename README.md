@@ -9,7 +9,6 @@
 `sudo pip3 install azure-iothub-service-client`</br>
 `sudo pip3 install azure-iothub-device-client`</br>
 
-#### [Azure CLI on Raspberry Pi](https://snapcraft.io/install/azure-cli/raspbian)
 
 Make sure you run your code with Python3
 
